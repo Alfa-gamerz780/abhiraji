@@ -67,7 +67,7 @@
 /* navbar */
 
 
-.navbar {
+.navbar{
         transform: translateY(-5px);
         transition: all 0.3s ease-in-out;
         position: fixed;
@@ -79,21 +79,21 @@
         animation-range: 0% cover 40%;
 }
 
-.nav-bar {
+.nav-bar{
         background-color: #1E3A8A;
 }
 
-.nav-item {
+.nav-item{
         color: antiquewhite;
 }
 
-.active {
+.active{
         animation: bounce 2s;
         animation-iteration-count: unset;
 
 }
 
-.active:hover {
+.active:hover{
         text-decoration: underline;
         color: antiquewhite;
 }
