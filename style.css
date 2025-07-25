@@ -34,7 +34,7 @@
 /* heading */
 
 
-.heading {
+.heading{
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -47,7 +47,7 @@
         animation-range: 0% cover 40%;
 }
 
-.heading select {
+.heading{
         border: none;
         outline: none;
         background: transparent;
@@ -59,7 +59,7 @@
         height: 50px;
 }
 
-.heading select option {
+.heading{
         color: #000;
 }
 
