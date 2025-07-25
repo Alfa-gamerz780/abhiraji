@@ -39,7 +39,7 @@
         justify-content: space-between;
         align-items: center;
         padding: 2px 40px;
-        background-color: #ACA69A;
+        background-color: #000;
         color: #fff;
         z-index: 999;
         animation: slide linear;
@@ -80,7 +80,7 @@
 }
 
 .nav-bar {
-        background-color: #9FB1BC;
+        background-color: #1E3A8A;
 }
 
 .nav-item {
@@ -147,6 +147,8 @@
 
 
 .about-us {
+        border: 1px solid #000;
+        border-radius: 8px;
         animation: slide linear;
         animation-timeline: view();
         animation-range: 0% cover 40%;
@@ -253,6 +255,8 @@
 }
 
 .card-pulse {
+        border: 1px solid #000;
+        border-radius: 8px;
         animation: pulse 2s infinite;
 }
 
@@ -280,6 +284,8 @@
 
 
 .features {
+        border: 1px solid #000;
+        border-radius: 8px;
         align-items: center;
         justify-content: center;
         animation: slide linear;
@@ -380,4 +386,8 @@
         margin: 0 auto;
         margin-bottom: 20px;
         animation: change 3s ease-in-out infinite;
+}
+
+#foot-main{
+        margin: 0%;
 }

@@ -12,11 +12,11 @@
 
 </head>
 
-<body style="background: #1E3A8A">
+<body style="background: #f8f9fa">
 
         <div>
-                <a href="login.html"><button class="extra-btn1">Login</button></a>
-                <a href="signup.html"><button class="extra-btn2">Sign Up</button></a>
+                <a href="login.html" target="_blank"><button class="extra-btn1">Login </button></a>
+                <a href="signup.html" target="_blank"><button class="extra-btn2">Sign Up</button></a>
         </div>
 
         <!-- Header -->
@@ -27,7 +27,7 @@
                         <div class="col-sm-12 heading">
                                 <span>Hello Students!!!</span>
                                 <div>
-                                        <img src="flag1.png" alt="">
+                                        <img src="img/flag1.png" alt="">
                                         <select>
                                                 <option value="English">English</option>
                                                 <option value="Hindi">Hindi</option>
@@ -39,9 +39,9 @@
 
 
         <!-- nav bar -->
-        <nav class="navbar navbar-expand-lg nav-bar mb-5">
+        <nav class="navbar navbar-expand-lg nav-bar mb-1">
                 <div class="container-fluid ">
-                        <a href="#"><img src="logo.png" alt=""></a>
+                        <a href="#"><img src="img/logo.png" alt=""></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                                 aria-label="Toggle navigation">
@@ -50,19 +50,25 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                                 <ul class="navbar-nav">
                                         <li class="nav-item">
-                                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                                <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
                                         </li>
                                         <li class="nav-item">
-                                                <a class="nav-link active" href="#" >Features</a>
+                                                <a class="nav-link active text-light" href="#"
+                                                        onclick="event.preventDefault();scroll1();">Features</a>
                                         </li>
                                         <li class="nav-item">
-                                                <a class="nav-link active" href="#" >E-Book</a>
+                                                <a class="nav-link active text-light" href="gallery.html">Gallery</a>
                                         </li>
                                         <li class="nav-item">
-                                                <a class="nav-link active" href="#">Notices</a>
+                                                <a class="nav-link active text-light" href="#"
+                                                        onclick="event.preventDefault();scroll2();">Notices</a>
                                         </li>
                                         <li class="nav-item">
-                                                <a class="nav-link active" href="#">Contacts</a>
+                                                <a class="nav-link active text-light" href="#">E-Book</a>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a class="nav-link active text-light" href="#"
+                                                        onclick="event.preventDefault();scroll3();">Contacts</a>
                                         </li>
                                 </ul>
                         </div>
@@ -77,14 +83,14 @@
         <!-- Slider -->
         <div id="carouselExampleSlidesOnly" class="carousel slide mb-5" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                        <div class="carousel-item active">
-                                <img src="slider1.jpg" class="d-block w-100" alt="...">
-                        </div>
                         <div class="carousel-item">
-                                <img src="slider2.jpg" class="d-block w-100" alt="...">
+                                <img src="img/sch1.jpg" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item ">
-                                <img src="slider3.jpg" class="d-block w-100" alt="...">
+                                <img src="img/slider3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item active">
+                                <img src="img/slider2.jpg" class="d-block w-100" alt="...">
                         </div>
                 </div>
         </div>
@@ -92,7 +98,7 @@
         <!-- About Us -->
 
         <div class="col-sm-12">
-                <h1 class="text-center top">ABOUT US</h1>
+                <h1 class="text-center top text-dark">ABOUT US</h1>
                 <div class="under-line"></div>
         </div>
         <div class="container bg-light mb-5 about-us">
@@ -107,7 +113,7 @@
                                         unde. Quasi, cumque. Doloribus, cumque. Doloribus, cumque.</p>
                         </div>
                         <div class="col-sm-6 about-img">
-                                <img src="about.jpg" alt="" class="img-fluid">
+                                <img src="img/about.jpg" alt="" class="img-fluid">
                         </div>
                 </div>
         </div>
@@ -115,13 +121,13 @@
 
         <!-- Inter -->
         <div class="col-sm-12">
-                <h1 class="text-center top">INTER COURCES</h1>
+                <h1 class="text-center top text-dark">INTER COURCES</h1>
                 <div class="under-line"></div>
         </div>
         <div class="container.fluid inter-cources mb-5">
                 <div class="row g-5 inter-cources">
                         <div class="card bg-light g-5 card-pulse" style="width: 18rem;">
-                                <img src="card1.jpg" class="card-img-top" alt="...">
+                                <img src="img/card1.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                         <h5 class="card-title text-center">BIO STREAM</h5>
                                         <p class="card-text"></p>
@@ -131,7 +137,7 @@
                                 </div>
                         </div>
                         <div class="card bg-light g-5 card-pulse" style="width: 18rem;">
-                                <img src="card2.jpg" class="card-img-top" alt="...">
+                                <img src="img/card2.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                         <h5 class="card-title text-center">MATH STREAM</h5>
                                         <p class="card-text"></p>
@@ -141,7 +147,7 @@
                                 </div>
                         </div>
                         <div class="card bg-light g-5 card-pulse" style="width: 18rem;">
-                                <img src="card3.jpg" class="card-img-top" alt="...">
+                                <img src="img/card3.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                         <h5 class="card-title text-center ">ART STREAM</h5>
                                         <p class="card-text"></p>
@@ -157,13 +163,13 @@
         <!-- High School -->
 
         <div class="col-sm-12">
-                <h1 class="text-center top">HIGH SCHOOL COURCES</h1>
+                <h1 class="text-center top text-dark">HIGH SCHOOL COURCES</h1>
                 <div class="under-line"></div>
         </div>
         <div class="container.fluid inter-cources mb-5">
                 <div class="row g-5 inter-cources">
                         <div class="card bg-light g-5 card-pulse" style="width: 18rem;">
-                                <img src="card4.jpg" class="card-img-top" alt="...">
+                                <img src="img/card4.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                         <h5 class="card-title text-center ">COMPUTER STREAM</h5>
                                         <p class="card-text"></p>
@@ -173,7 +179,7 @@
                                 </div>
                         </div>
                         <div class="card bg-light g-5 card-pulse" style="width: 18rem;">
-                                <img src="card5.jpg" class="card-img-top" alt="...">
+                                <img src="img/card5.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                         <h5 class="card-title text-center">SANSKRIT STREAM</h5>
                                         <p class="card-text"></p>
@@ -183,7 +189,7 @@
                                 </div>
                         </div>
                         <div class="card bg-light g-5 card-pulse" style="width: 18rem;">
-                                <img src="card6.jpg" class="card-img-top" alt="...">
+                                <img src="img/card6.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                         <h5 class="card-title text-center">ART STREAM</h5>
                                         <p class="card-text"></p>
@@ -196,15 +202,15 @@
         </div>
 
         <!--Features-->
-        <div class="col-sm-12">
-                <h1 class="text-center top">FEATURES</h1>
+        <div class="col-sm-12" id="fea">
+                <h1 class="text-center top text-dark">FEATURES</h1>
                 <div class="under-line"></div>
         </div>
-        <div class="container features mb-5">
+        <div class="container features mb-5 ">
                 <div class="row row-cols-1 row-cols-md-2 g-4">
                         <div class="col">
                                 <div class="card bg-light">
-                                        <img src="card7.png" class="card-img-top" alt="...">
+                                        <img src="img/card7.png" class="card-img-top" alt="...">
                                         <div class="card-body">
                                                 <h5 class="card-title text-center fw-bold">Smart Classes</h5>
                                                 <p class="card-text"></p>
@@ -213,7 +219,7 @@
                         </div>
                         <div class="col">
                                 <div class="card bg-light">
-                                        <img src="card8.jpg" class="card-img-top" alt="...">
+                                        <img src="img/card8.jpg" class="card-img-top" alt="...">
                                         <div class="card-body">
                                                 <h5 class="card-title text-center fw-bold">Computer Lab</h5>
                                                 <p class="card-text"></p>
@@ -222,7 +228,7 @@
                         </div>
                         <div class="col">
                                 <div class="card bg-light">
-                                        <img src="card9.png" class="card-img-top" alt="...">
+                                        <img src="img/card9.png" class="card-img-top" alt="...">
                                         <div class="card-body">
                                                 <h5 class="card-title text-center fw-bold">Science Lab</h5>
                                                 <p class="card-text"></p>
@@ -231,7 +237,7 @@
                         </div>
                         <div class="col">
                                 <div class="card bg-light">
-                                        <img src="card10.png" class="card-img-top" alt="...">
+                                        <img src="img/card10.png" class="card-img-top" alt="...">
                                         <div class="card-body">
                                                 <h5 class="card-title text-center fw-bold">Sports Classes</h5>
                                                 <p class="card-text"></p>
@@ -243,8 +249,8 @@
 
         <!-- Notice -->
 
-        <div class="col-sm-12">
-                <h1 class="text-center top">NOTICES</h1>
+        <div class="col-sm-12" id="note">
+                <h1 class="text-center top text-dark">NOTICES</h1>
                 <div class="under-line"></div>
         </div>
         <div class="container mb-5">
@@ -252,25 +258,31 @@
                         <div class="card notice-card">
                                 <div class="card-body notice-border">
                                         <h4 class="card-title text-center">Admission</h4>
-                                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum consequatur officiis porro inventore, iusto labore dicta quis provident dolorum excepturi iure exercitationem repellendus autem nemo, commodi adipisci cumque quidem harum!</p>
-                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins
-                                                        ago</small></p>
+                                        <hr>
+                                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                Nostrum consequatur officiis porro inventore, iusto labore dicta quis
+                                                provident dolorum excepturi iure exercitationem repellendus autem nemo,
+                                                commodi adipisci cumque quidem harum!</p>
                                 </div>
                         </div>
                         <div class="card notice-card">
                                 <div class="card-body notice-border">
                                         <h4 class="card-title text-center">Results</h4>
-                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus perferendis itaque mollitia aperiam enim assumenda voluptate nemo quas ex. Vero, earum at laudantium amet dolore corporis eum. Nihil, neque consequatur?</p>
-                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins
-                                                        ago</small></p>
+                                        <hr>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                Possimus perferendis itaque mollitia aperiam enim assumenda voluptate
+                                                nemo quas ex. Vero, earum at laudantium amet dolore corporis eum. Nihil,
+                                                neque consequatur?</p>
                                 </div>
                         </div>
                         <div class="card notice-card">
                                 <div class="card-body notice-border">
                                         <h4 class="card-title text-center">Holidays</h4>
-                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nobis, obcaecati, commodi repellat quisquam voluptas aliquid consequuntur quo et molestias tenetur, eaque iure ut dolorum perspiciatis iusto debitis optio corrupti?</p>
-                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins
-                                                        ago</small></p>
+                                        <hr>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                Autem nobis, obcaecati, commodi repellat quisquam voluptas aliquid
+                                                consequuntur quo et molestias tenetur, eaque iure ut dolorum
+                                                perspiciatis iusto debitis optio corrupti?</p>
                                 </div>
                         </div>
                 </div>
@@ -278,17 +290,22 @@
 
         <!-- Contact Us -->
 
+        <div class="col-sm-12 mt-5" id="cont">
+                <h1 class="text-center top text-dark">CONTACT-US</h1>
+                <div class="under-line"></div>
+        </div>
         <div class="container mb-5">
                 <div class="row g-4 contact-us">
                         <div class="col-md-6 footer-form g-4">
                                 <h5>Contact</h5>
-                                <p><strong>Address:</strong>37W5+5J4, Manda, Manda Khas, Uttar Pradesh 212104</p>
+                                <p><strong>Address:</strong>37W5+5J4, Manda, Manda Khas, Uttar Pradesh 212104
+                                </p>
                                 <p><strong>Call Us:</strong>09198111833</p>
                                 <p><strong>Email:</strong> abhiraji@gmail.com</p>
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.1907258192077!2d82.25651047472373!3d25.095404335817502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398ff4d86de0fa6b%3A0x611770c012d594c6!2sAbhiraji%20vihar%20Inter%20college%20manda!5e0!3m2!1sen!2sin!4v1753000860381!5m2!1sen!2sin" 
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.1907258192077!2d82.25651047472373!3d25.095404335817502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398ff4d86de0fa6b%3A0x611770c012d594c6!2sAbhiraji%20vihar%20Inter%20college%20manda!5e0!3m2!1sen!2sin!4v1753000860381!5m2!1sen!2sin"
                                         width="100%" height="200" style="border:0;" allowfullscreen></iframe>
                         </div>
-                        <div class="col-md-6 footer-form g-4" >
+                        <div class="col-md-6 footer-form g-4">
                                 <h5>Send a Message</h5>
                                 <form>
                                         <div class="mb-2"><input type="text" class="form-control"
@@ -307,11 +324,12 @@
 
         <!-- Foooter -->
 
-        <div class="container-fluid bg-dark ">
+        <div class="container-fluid bg-dark " id="foot-main">
                 <div class="row foot">
-                        <div class="col-sm-4 text-center text-light">5
+                        <div class="col-sm-4 text-center text-light">
                                 <h2>Abhiraji Vihar Inter College Manda</h2>
-                                <p>Welcome to our college website. We are dedicated to providing quality education and
+                                <p>Welcome to our college website. We are dedicated to providing quality
+                                        education and
                                         fostering a supportive learning environment.</p>
                         </div>
                         <div class="col-sm-4 foot-links text-center text-light align-items-center">
@@ -326,17 +344,18 @@
                         </div>
                         <div class="col-sm-4 text-center text-light">
                                 <h2>Contact Us</h2>
-                                <p><strong>Address:</strong> 37W5+5J4, Manda, Manda Khas, Uttar Pradesh 212104</p>
+                                <p><strong>Address:</strong> 37W5+5J4, Manda, Manda Khas, Uttar Pradesh 212104
+                                </p>
                                 <p><strong>Phone:</strong> 09198111833</p>
                                 <p><strong>Email:</strong>abhiraji@gmail.com</p>
                         </div>
                 </div>
                 <div class="footer-line">
-                        
+
                 </div>
                 <div class="row">
                         <div class="col-sm-12 text-center text-light footer">
-                                <p>© 2023 Abhiraji Vihar Inter College Manda. All rights reserved.</p>
+                                <p>© 2025 Abhiraji Vihar Inter College Manda. All rights reserved.</p>
                                 <p>Designed by</p>
                                 <h1>ATHARV KESHARI</h1>
                                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -344,15 +363,28 @@
                                 <a href="#"><i class="bi bi-instagram"></i></a>
                                 <a href="#"><i class="bi bi-linkedin"></i></a>
                         </div>
-                </div>5
+                </div>
         </div>
 
+
+
         <script>
-                function scroll() {
-                        window.scrollTo({
-                                top: document.querySelector('.features').offsetTop,
-                                behavior: 'smooth'
-                        });
+                function scroll1() {
+                        document.getElementById("fea").scrollIntoView({
+                                behavior: "instant"
+                        })
+                }
+
+                function scroll2() {
+                        document.getElementById("note").scrollIntoView({
+                                behavior: "instant"
+                        })
+                }
+
+                function scroll3() {
+                        document.getElementById("cont").scrollIntoView({
+                                behavior: "instant"
+                        })
                 }
         </script>
 </body>
