@@ -31,16 +31,34 @@
         cursor: pointer;
 }
 
+.down-logo{
+        position: fixed;
+        bottom: 10px;
+        left: 10px;
+        background: transparent;
+        width: 150px;
+        z-index: 999;
+}
+
+.whats-app{
+        position: fixed;
+        bottom: 60px;
+        right: 10px;
+        background: transparent;
+        width: 80px;
+        z-index: 999;
+}
+
 
 /* navbar */
 
 
 nav{
-        position: fixed;
+        position: sticky;
         right: 0px;
         top: 0px;
         width: 100%;
-        z-index: 1000;
+        
         animation: slide linear;
         animation-timeline: view();
         animation-range: 0% cover 40%;
