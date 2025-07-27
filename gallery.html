@@ -14,47 +14,21 @@
                         scroll-behavior: smooth;
                 }
 
-                .extra-btn1 {
-                        position: fixed;
-                        bottom: 10px;
-                        right: 100px;
-                        z-index: 999;
-                        background: red;
-                        color: white;
-                        border: none;
-                        padding: 10px 20px;
-                        border-radius: 5px;
-                        cursor: pointer;
-                }
-
-                .extra-btn2 {
-                        position: fixed;
-                        bottom: 10px;
-                        right: 10px;
-                        z-index: 999;
-                        background: green;
-                        color: white;
-                        border: none;
-                        padding: 10px 12px;
-                        border-radius: 5px;
-                        cursor: pointer;
-                }
-
                 .down-logo {
                         position: fixed;
                         bottom: 10px;
                         left: 10px;
                         background: transparent;
-                        width: 150px;
+                        width: 100px;
                         z-index: 999;
                 }
 
                 .whats-app {
                         position: fixed;
-                        bottom: 60px;
+                        bottom: 10px;
                         right: 10px;
                         background: transparent;
-                        width: 80px;
+                        width: 50px;
                         z-index: 999;
                 }
 
@@ -63,23 +37,19 @@
                         background-color: #f8f9fa;
                 }
 
-                nav {
-                        position: fixed;
-                        right: 0px;
-                        top: 0px;
-                        width: 100%;
-                        z-index: 1000;
-                        animation: slide linear;
-                        animation-timeline: view();
-                        animation-range: 0% cover 40%;
-                }
-
                 .nav-bar {
                         background-color: #1E3A8A;
                 }
 
                 .nav-item {
                         color: antiquewhite;
+                }
+
+                .nav-card {
+                        position: fixed;
+                        top: 0px;
+                        z-index: 998;
+                        background-color: #1E3A8A;
                 }
 
                 .active {
@@ -113,6 +83,7 @@
                 }
 
                 .btn {
+                        margin-left: 20px;
                         background-color: #1E3A8A;
                         color: #fff;
                         border: 1px solid #fff;
@@ -225,15 +196,13 @@
 <body>
 
         <div>
-                <a href="login.html" target="_blank"><button class="extra-btn1">Login </button></a>
-                <a href="signup.html" target="_blank"><button class="extra-btn2">Sign Up</button></a>
                 <img src="img/downlogoreal.png" alt="" class="down-logo">
                 <a href="https://wa.me/qr/PZB3YSVTDQW3J1"><img src="img/whatsapp.png" alt="" class="whats-app"></a>
         </div>
 
         <!-- Header -->
         <nav class="navbar navbar-expand-lg nav-bar mb-1">
-                <div class="container-fluid ">
+                <div class="container-fluid nav-card">
                         <a href="#"><img src="img/logo.png" alt=""></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -267,12 +236,13 @@
                                 </ul>
                         </div>
                         <form class="d-flex" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Search"
-                                        aria-label="Search" />
-                                <button class="btn btn-outline-light" type="submit">Search</button>
+                                <button class="btn btn-outline-light" type="submit">Login</button>
+                                <button class="btn btn-outline-light" type="submit">Sign Up</button>
                         </form>
                 </div>
         </nav>
+        <img src="img/herosection.png" alt="" style="width: 100%;" class="mb-3 mt-5">
+
         <div class="container">
                 <div class="gallery-title">Result <br>
                         <h5>2023-24</h5>
