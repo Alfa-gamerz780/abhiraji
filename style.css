@@ -95,6 +95,11 @@ nav {
         cursor: pointer;
 }
 
+.btn a{
+        text-decoration: none;
+        color: #fff;
+}
+
 .top {
         color: aliceblue;
 }

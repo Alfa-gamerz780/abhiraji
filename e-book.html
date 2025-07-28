@@ -57,7 +57,7 @@
                         color: antiquewhite;
                 }
 
-                .nav-card{
+                .nav-card {
                         position: fixed;
                         top: 0px;
                         z-index: 998;
@@ -102,6 +102,11 @@
                         padding: 10px 20px;
                         border-radius: 5px;
                         cursor: pointer;
+                }
+
+                .btn a {
+                        text-decoration: none;
+                        color: #fff;
                 }
 
                 .top {
@@ -254,8 +259,10 @@
                                 </ul>
                         </div>
                         <form class="d-flex" role="search">
-                                <a href="login.html"><button class="btn btn-outline-light" type="submit">Login</button></a>
-                                <a href="signup.html"><button class="btn btn-outline-light" type="submit">Sign Up</button></a>
+                                <button class="btn btn-outline-light" type="submit"><a
+                                                href="login.html">Login</a></button>
+                                <button class="btn btn-outline-light" type="submit"><a href="signup.html">Sign
+                                                Up</a></button>
                         </form>
                 </div>
         </nav>
